@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
     res.send(`
-        <h1>Welcome to My Express Website</h1>
-        <p>Running with Node.js and Express.</p>
+        <h1>Welcome to My Express Website 🚀</h1>
+        <p>Running with Node.js and Express in Docker 🐳.</p>
         <a href="/about">About</a>
     `);
 });
