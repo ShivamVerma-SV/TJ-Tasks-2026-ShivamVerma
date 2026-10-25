@@ -32,7 +32,7 @@ app.get("/hello", (req, res) => {
 });
 
 app.get("/time", (req, res) => {
-    const currentTime = new Date().toLocaleTimeString("en-IN");
+    const currentTime = new Date().toLocaleTimeString("en-IN", { timeZone: "Asia/Kolkata" });
     res.json({
         time: currentTime,
         timezone: "IST"
